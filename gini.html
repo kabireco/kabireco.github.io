@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Gini Coefficient | Lorenz Curve</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body
+            {
+                padding: 50px;
+            }
+            h1
+            {
+                text-align: center;
+            }
+            p
+            {
+				margin-left: 200px;
+				margin-right: 200px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="/intro">Introduction<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/gini">Gini Coefficient<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/analysis">Analysis<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/applications">Applications<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <h1>Gini Coefficient</h1>
+		<p>The Lorenz Curve represents the ideal situation. In order to apply this to real-life situations, the Gini Coefficient was developed (named after Corrado Gini). The coefficient simply measures how close a particular economy is to the ideal (where there is perfect equitable distribution of income, as discussed earlier).</p>
+		<center>
+		<img src="./gini.png"></img>
+		</center>
+		<p>In the above figure, the line of equality represents the ideal situation and the line underneath represents the curve for a hypothetical economy. We will find how close this curve is to the line of inequality by calculating its Gini Coefficient.</p>
+		<p><b>Calculation:</b></p>
+		<center>
+		<p><i>G</i> (Gini Coefficient) = <i>A / (A+B)</i></p>
+		</center>
+		<p><i>A</i> is the the area of the difference between the line of equality and our curve. <i>B</i> is the area under our Lorenz Curve. In other words, we are trying to find the ratio of the area of difference <i>A</i> to the total area <i>A</i> + <i>B</i>.
+    </body>
+</html>
